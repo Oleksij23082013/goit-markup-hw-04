@@ -206,12 +206,12 @@ background-color: var(--color-ocean);
 .priority-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
+    margin: 0 auto;
 }
 
 .priority-item {
     width: 264px;
-    height: 112px;
+    height: 224px;
     display: flex;
     flex-direction: column;
 }
@@ -288,7 +288,6 @@ margin-bottom: 72px;
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 60%)/4);
 }
 
 .team-item {
@@ -374,8 +373,7 @@ margin-bottom: 72px;
 }
 
 .client-item {
-    width: 168px;
-    height: 88px;
+    min-width: 168px;
 }
 
 .client-soc-link {
@@ -391,6 +389,7 @@ margin-bottom: 72px;
 
 .client-soc-icon{
     fill: var(--color-light-slate);
+    margin: 16px 32px;
 }
 
 .client-soc-link:hover{  
